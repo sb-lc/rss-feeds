@@ -1,0 +1,26 @@
+.table{
+    display: table;
+    border: 1px #CCCCCC solid;
+}
+
+.table-row{
+    display: table-row;
+}
+
+.table-cell{
+    display: table-cell;
+    padding: 4px;
+}
+
+.table-row:nth-child(odd) .table-cell {
+    background-color: #EDEDED;
+}
+
+
+footer{
+    padding-top: 20px;
+}
+
+input[type=text]{
+    width: 400px;
+}
